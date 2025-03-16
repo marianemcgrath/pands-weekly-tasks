@@ -11,7 +11,10 @@ account_number = input("Please enter a 10-digit account number: ")
 # Ensure the account is 10 characters long
 if len(account_number) == 10 and account_number.isdigit():
 
-# Above, the system checks if the input is in the right format (10 characters long with len() and consists only of digits) Resources: Chat GPT
+# Above, the system checks if the input is in the right format (10 characters long with len() 
+# and consists only of digits), using the Boolean (==) denominators
+
+# Resource: Chat GPT promt
 
 
 # Mask the digits with 'X', except the last 4
@@ -23,4 +26,4 @@ print("Masked account number:", masked_account)
 # If the input is invalid, an error message is displayed
 print("Invalid input. Please enter a 10-digit numeric account number.")
 
-# 
+# Source: https://how.dev/answers/how-to-mask-a-credit-card-number-with-asterisks-in-python
