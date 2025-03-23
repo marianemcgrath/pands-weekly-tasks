@@ -11,10 +11,13 @@ account_number = input("Please enter a 10-digit account number: ")
 # Ensure the account is 10 characters long
 if len(account_number) == 10 and account_number.isdigit():
 
-# Above, the system checks if the input is in the right format (10 characters long with len() 
-# and consists only of digits), using the Boolean (==) denominators
 
-# Resource: Chat GPT promt
+
+#Above, the system checks if the input is in the right format that is 10 characters long with len()
+# and consists only of digits, using the Boolean (==) denominators
+
+# Resource: Chat GPT promt (Pleasemake me a very basic and clean code that ensures an account number is equal to 10 and an int)
+
 
 
 # Mask the digits with 'X', except the last 4
