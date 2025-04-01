@@ -13,7 +13,7 @@ total = amount1 + amount2
 euro = total // 100 # Giving the integer number
 cents = total % 100 # Calculating cents
 
-#source: Google/ DeepSeek ("How to calculate euro and cent conversion for 2 integer numbers in a very basic and clean code)
+# Source: DeepSeek (Prompt: "How to calculate euro and cent conversion for 2 integer numbers in a very basic and clean code")
 
-# Showing the result in a readable format
+# Showing the result of the function in a readable format in euros and cents
 print(f"The sum of these is €{euro}.{cents:02d}")
