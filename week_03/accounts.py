@@ -1,32 +1,37 @@
-# Accounts Task
-# Author: Mariane McGrath
-
-
-# Reading a 10 character account number and displaying the account number with only
+# Task 3: Accounts
+# In this task, the program reads a 10 character account number and displays the account number with only
 # the last 4 digits showing (and the first 6 digits replaced with Xs)
 
-# Enter a 10-digit user account number
-account_number = input("Please enter a 10-digit account number: ")
+# Author: Mariane McGrath
 
-# Ensure the account is 10 characters long
-if len(account_number) == 10 and account_number.isdigit():
+# Enter a user account number
+acc_number = input ("Please enter your 10 digit account number: ")
 
+# Ensuring the account has 10 digits and it is an integer, a look should be added, to ensure the user has
+# the correct number of digits. If not, an error message is issued.
 
+if len(acc_number) == 10 and acc_number.isdigit():
+    valid_input = True # This exits the loop once user has the correct input
+else:
+    print("Invalid input. Please enter 10 digits.")
 
-#Above, the system checks if the input is in the right format that is 10 characters long with len()
-# and consists only of digits, using the Boolean (==) denominators
+# Resource: DeepSeek AI - Promt (Please make me a very basic and clean code that ensures an account number has 10 an int)
 
-# Resource: Chat GPT promt (Pleasemake me a very basic and clean code that ensures an account number is equal to 10 and an int)
+# Check how many numbers/ characters the account number has (length of the input)
+string_length = len (acc_number)
 
+# Mask all numbers from input, except the last 4
+mask = string_length - 4
 
-
-# Mask the digits with 'X', except the last 4
-    masked_account = 'XXXXXX' + account_number[-4:]
+# This part shows where the slice is placed, which is before the last 4 digits to be shown
+showstr = acc_number [mask:]
     
 # Output the masked account number
-print("Masked account number:", masked_account)
+print("X" * mask + showstr)
 
-# If the input is invalid, an error message is displayed
-print("Invalid input. Please enter a 10-digit numeric account number.")
+# Above, the system checks if the input is in the right format that is exactly 10 characters long with len() and using the boolean (==)
+# denominators and isdigit() for a numeric digits only entry, if the loop is removed (from line 13 to line 16), non-numerical
+# characters can also be a part of the account number, as well as an input of any length.
 
+# Source: https://www.youtube.com/watch?v=H2uYYigqCnE (Python Code Challenge - Credit Card Mask)
 # Source: https://how.dev/answers/how-to-mask-a-credit-card-number-with-asterisks-in-python
