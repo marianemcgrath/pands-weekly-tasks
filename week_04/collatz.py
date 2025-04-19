@@ -1,23 +1,24 @@
+# Task 4: Collatz
 # Calculating number in Collatz sequence
+
 # Author: Mariane McGrath
 
-# Defining Collatz sequence funtion
+# Define Collatz sequence funtion
 def collatz(number):
-
-    # Continue looping until it reaches number 1
+    # It continues looping until it reaches number 1
     while number != 1:
     
-    # If the result is an even number, it divides by 2
-        if number % 2 == 0:
-            print(number // 2)
-            return number // 2
+    # If the result is an even number, divide by 2
+        if number % 2 == 0:                             
+            print(number // 2)                          # Print the result to show the sequence
+            return number // 2                          # Ensuring the loop stops after the first run
     
-    # Otherwise, if it is an off number, it multiplies by 3 and adds 1
+   # Otherwise, if it is an off number, it multiplies by 3 and adds 1 
         elif number % 2 == 1:
             print(number * 3 + 1)
-            return number *3 + 1
+            return (number * 3 + 1)
 
-# This is the beginning of the program
+# This is the beginning of the program for the user
 try:
     n = int (input ("Please enter a positive integer:"))
 
@@ -33,3 +34,5 @@ except ValueError:
 
 
 # Resources: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+# Resources: https://docs.python.org/3/reference/compound_stmts.html#while
+# Resources: https://en.wikipedia.org/wiki/Collatz_conjecture

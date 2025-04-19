@@ -7,11 +7,11 @@
 # Enter a user account number
 acc_number = input ("Please enter your 10 digit account number: ")
 
-# Ensuring the account has 10 digits and it is an integer, a look should be added, to ensure the user has
+# Ensuring the account has 10 digits and it is an integer, a loop was added, to ensure the user has
 # the correct number of digits. If not, an error message is issued.
 
 if len(acc_number) == 10 and acc_number.isdigit():
-    valid_input = True # This exits the loop once user has the correct input
+    valid_input = True                              # This exits the loop once user has the correct input
 else:
     print("Invalid input. Please enter 10 digits.")
 
