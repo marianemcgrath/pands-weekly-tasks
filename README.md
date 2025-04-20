@@ -1,10 +1,10 @@
 # Pands Weekly Tasks
 
- 🌇 #**Overview**
+ 🌇 # **Overview**
 
 In this repository, you'll find my solutions for Programming & Scripting classes, at ATU Galway-Mayo (Year 1/ Semester 1 - 2025)
 
- 📚 #**Tasks**
+ 📚 # **Tasks**
 
 ## Task 1: Hello World! 
  - This program that displays "Hello World!" when it is run
@@ -61,6 +61,6 @@ Suggested files/ figures for the test:
  - A plot of the function  h(x)=x3 in the range 0 to 10, in the one set of axes
  - A copy of the image of the plot (.png file)
 
- 📝 #**Resources** 
+ 📝 # **Resources** 
 
 
