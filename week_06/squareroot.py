@@ -27,7 +27,8 @@ else:
     for _ in range(20): 
         guess = (guess + number/guess) / 2
     
-    print(f"The square root of {number} is approximately {guess}")      # Now, we add a function that outputs the number the user entered and its square root
+    print(f"The square root of {number} is approximately {guess}")      # Function added, as it looks good when trying to include strings and numbes, 
+                                                                        # that outputs the number the user entered and its square root
 
 # Resource: https://www.youtube.com/watch?v=tUFzOLDuvaE Approximating Square Roots w/ Newton's Method
 # Resource: https://www.youtube.com/watch?v=nDlip0Mg8tE Python Primer: Implementing Newton's Square Root Approximation
