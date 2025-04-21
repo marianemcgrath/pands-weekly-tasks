@@ -15,4 +15,5 @@ with open("data.txt","r") as f:
 
 # Resources: https://www.youtube.com/watch?v=kE90BE-jd1U
 # Resources: https://realpython.com/working-with-files-in-python/
-# https://www.youtube.com/watch?v=bnVf5IyqEhw
+# Resources: https://www.youtube.com/watch?v=bnVf5IyqEhw
+# Sample text downloaded from https://filesamples.com/formats/txt (sample3/ sample1)
