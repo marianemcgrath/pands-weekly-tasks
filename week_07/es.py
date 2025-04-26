@@ -1,32 +1,31 @@
 # A program that reads in a text file and outputs the number of e's it contains
 # Author: Mariane McGrath
 
-from pathlib import Path
-path = moby_dick.txt
+import sys                                                              # First, we need to be able to read what the user types, so we import sys to access the user entry
 
+try:                                                                    # We'll try to try/ except, assuming the user might make a mistake, so we might have to handle errors
+                                                                        # https://www.w3schools.com/python/python_try_except.asp
 
-import sys
-# Resource: https://stackoverflow.com/questions/61031785/syntax-error-using-sys-argv-as-argument-in-function (sys.arg function )
-try:
-    path = sys.argv [1]
-    with open (moby_dick.txt,"rt", encoding='utf-8') as file:                                # Open the file text containing text in read mode
-                                                                        # Text file downloaded from https://www.kaggle.com/datasets/gauravduttakiit/melville-moby-dick?resource=download
-                                                                        # Resource: https://www.w3schools.com/python/python_file_handling.asp
-        text = file.read()
-        e_count = text.lower().count('e')
-        print (f"The number of total 'e' letters on the file is"+ {e_count})
+    moby_dick = sys.argv[1]                                             # We'll take the file that the user entered, and we'll use the second thing (sys.argv[1]) which is the file name
+                                                                        # as the first thing (sys.argv[0]) is the name of the program
+    with open (moby_dick, "r", encoding = "utf-8") as file:             # Now, we open the text file, we'll read the file, then use .lower() to turn all letters into lowercase          
+                                                                        # After, we count how many times 'e' appears in the file    
+        count = file.read().lower().count('e')                          # Resource: https://realpython.com/working-with-files-in-python/ (Working With Files in Python)
+                                                                        # Resource: DeepSeek AI (Add to my code, a simple function to count both upper and lower cases of the letter 'e')
 
-except IndexError:
-    print("Error: Please provide a filename (e.g., python counter.py moby_dick.txt)")
-except FileNotFoundError:
-    print(f"Error: File '{sys.argv[1]}' not found. Please check:")
-    print("- The file exists in the same directory as your script")
-    print("- You spelled the filename correctly")
-except Exception as e:
-    print(f"An error occurred: {str(e)}")
+        print(count)                                                    # Then, we print the final count for the user
+                                                                        
 
+except IndexError:                                                           # This error will happen if the user forgot to type the filename after "python es.py" 
+    print("Error: Missing filename, please use: python es.py moby_dick.txt") # The program issues a message asking user to enter the prompt correctly (program followed by file name)
 
-# Resources: https://www.youtube.com/watch?v=kE90BE-jd1U
-# Resources: https://realpython.com/working-with-files-in-python/
+except FileNotFoundError:                                                    # This error will happen if the filename does not exist
+    print(f"Error: File not found")                                          # The program issues a message to let the user know that the file was not found
+
+except:                                                                      # This will catch any other errors, for example, if the file is corrupted
+    print("Error: Could not read file")                                      # The program issues a general message
+
+# Resource: Matthes, E. (2023) Python Crash Course (3rd edition). San Francisco, US: No Starch Press -- Chapter 11
+# Resource: https://docs.python.org/3/library/os.html#files-and-directories 
 # Resources: https://www.youtube.com/watch?v=bnVf5IyqEhw
 # Sample text downloaded from https://filesamples.com/formats/txt (sample3/ sample1)
