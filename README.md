@@ -102,7 +102,7 @@ Suggested figures for the test:
 
 Suggested files/ figures for the test:
  - moby-dick.txt
- - 116960
+ - 115020
 
 **Key Features:**  
 - File handling
