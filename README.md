@@ -117,7 +117,7 @@ Suggested files/ figures for the test:
 # **Resources** 📝
 
 Various resources were consulted to aid learning and ensure best practices. Key references include:
-* Online:
+Online:
 - Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 - W3Schools Python Tutorials: [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
 - Stack Overflow Discussions for troubleshooting specific issues: [https://stackoverflow.com/](https://stackoverflow.com/)
@@ -125,10 +125,10 @@ Various resources were consulted to aid learning and ensure best practices. Key 
 - Real Python Tutorials (for deeper Python insights): [https://realpython.com/](https://realpython.com/)
 - GeeksforGeeks Python Tutorials (especially for file handling and loops): [https://www.geeksforgeeks.org/python-programming-language/](https://www.geeksforgeeks.org/python-programming-language/)
   
-* Book:
+Book:
 - Matthes, E. (2023) Python Crash Course (3rd edition). San Francisco, US: No Starch Press
 
-* AI Sources:
+AI Sources:
 - Both Chat GPT and DeepSeek were utilised in parts of this project, including the creation of this ReadMe file.
   The specific prompts were referenced throughout each task.
 
