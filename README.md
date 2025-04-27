@@ -40,6 +40,7 @@ This repository contains eight weekly tasks, covering:
 
 ## Task 2: Bank
  This program, called bank.py, prompts the user to enter two amounts in cents, adds the two amounts, and prints the result in the following format: a euro sign and a decimal point between the euro and the cent in the quantity.
+ 
 Suggested figures for the test: 
   - Enter amount1(in cent): 65
   - Enter amount2(in cent): 180
@@ -119,20 +120,20 @@ Suggested files/ figures for the test:
 - Data visualisation with `matplotlib`
 - Random number generation
 
-## **How to Use**🚀 
+# **How to Use**🚀 
 
-### 1. Clone the repository:
+## 1. Clone the repository:
 git clone https://github.com/marianemcgrath/pands-weekly-tasks.git
 
 cd pands-weekly-tasks
 
-### 2. Navigate to the task folder (replace x with the week number):
+## 2. Navigate to the task folder (replace x with the week number):
 cd weekx/
 
-### 3. Run the Python script (replace filename.py with the actual script name):
+## 3. Run the Python script (replace filename.py with the actual script name):
 python filename.py
 
-#### Special Cases
+### Special Cases
 **Task 7 (E-Count)** – run the script with a text file argument:
 
 python es.py moby-dick.txt
@@ -142,14 +143,14 @@ python es.py moby-dick.txt
 pip install matplotlib numpy
 python plottask.py
 
-## **Requirements** ⚙️ 
+# **Requirements** ⚙️ 
 Python 3.x
 
 For plotting (Task 8):
 
 pip install matplotlib numpy
 
-## **References** 📝
+# **References** 📝
 
 Various resources were consulted to aid learning and ensure best practices. Key references include:
 
@@ -168,12 +169,10 @@ AI Sources:
 - Both Chat GPT and DeepSeek were utilised, in parts, for the completion of this project, including the creation of this awesome ReadMe file.
   The specific prompts were referenced throughout each task.
   
-## **Contact**📫
+# **Contact**📫
 Mariane McGrath
 ✉️ Email: G00473468@atu.ie
-
 🔗 LinkedIn: [/marianemcgrath](https://www.linkedin.com/in/marianemcgrath)
-
 Feel free to reach out with questions or feedback!
 
 # **License** 📜
