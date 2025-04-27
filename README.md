@@ -123,6 +123,7 @@ Suggested files/ figures for the test:
 
 ### 1. Clone the repository:
 git clone https://github.com/marianemcgrath/pands-weekly-tasks.git
+
 cd pands-weekly-tasks
 
 ### 2. Navigate to the task folder (replace X with the week number):
