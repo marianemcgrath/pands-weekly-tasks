@@ -19,14 +19,17 @@ This repository contains eight weekly tasks, covering:
 ## Table of Contents 📑 
 - [🌇 Overview](#-overview)
 - [📚 Weekly Tasks](#-weekly-tasks)
-  - [Task 1: Hello World](#task-1-hello-world)
-  - [Task 2: Bank](#task-2-bank)
-  - [Task 3: Accounts](#task-3-accounts)
-  - [Task 4: Collatz](#task-4-collatz)
-  - [Task 5: Weekday](#task-5-weekday)
-  - [Task 6: Square Root](#task-6-square-root)
-  - [Task 7: Letter 'E' Counter](#task-7-e-count)
-  - [Task 8: Plot Task](#task-8-plot-task)
+  The links below will open each task in a different tab:
+  - [Task 1: Hello World](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_01/helloworld.py)
+  - [Task 2: Bank](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_02/bank.py)
+  - [Task 3: Accounts](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_03/accounts.py)
+  - [Task 4: Collatz](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_04/collatz.py)
+  - [Task 5: Weekday](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_05/weekday.py)
+  - [Task 6: Square Root](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_06/squareroot.py)
+  - [Task 7: Letter 'E' Counter](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_07/es.py)
+    [Text File] (https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_07/moby_dick.txt)
+  - [Task 8: Plot Task](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_08/plot_task.py)
+    [Plot Image](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_08/plot_task_graph.png)
 - [🚀 How to Run](#-how-to-run)
 - [⚙️ Requirements](#️-requirements)
 - [📜 License](#-license)
@@ -87,7 +90,7 @@ This program, called weekday.py, determines whether today is a weekday.
 ## Task 6: Square Root
  - This program takes a positive floating-point number as input and outputs an approximation of its square root.
  - This program does not use the built-in functions in Python [x ** .5 **or** math.sqrt(x)]
- - To develop the code, the author researched the Newton method for estimating square roots and used the Babylonian method.
+ - To develop the code, the author researched the Newton method for estimating square roots.
 
 Suggested figures for the test:
 - Please enter a positive number: 14.5
@@ -134,12 +137,12 @@ cd weekx/
 python filename.py
 
 ### Special Cases
-**Task 7 (E-Count)** – run the script with a text file argument:
-
+**Task 7 (E-Count)** 
+– Run the script with a text file argument:
 python es.py moby-dick.txt
 
-**Task 8 (Plot Task)** – install dependencies first:
-
+**Task 8 (Plot Task)** 
+– Install dependencies first:
 pip install matplotlib numpy
 python plottask.py
 
@@ -147,7 +150,6 @@ python plottask.py
 Python 3.x
 
 For plotting (Task 8):
-
 pip install matplotlib numpy
 
 # **References** 📝
