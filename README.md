@@ -19,7 +19,8 @@ This repository contains eight weekly tasks, covering:
 ## Table of Contents 📑 
 - [🌇 Overview](#-overview)
 - [📚 Weekly Tasks](#-weekly-tasks)
-  The links below will open each task in a different tab:
+  
+  **The links below will open each task in a different tab:**
   - [Task 1: Hello World](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_01/helloworld.py)
   - [Task 2: Bank](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_02/bank.py)
   - [Task 3: Accounts](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_03/accounts.py)
@@ -27,9 +28,10 @@ This repository contains eight weekly tasks, covering:
   - [Task 5: Weekday](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_05/weekday.py)
   - [Task 6: Square Root](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_06/squareroot.py)
   - [Task 7: Letter 'E' Counter](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_07/es.py)
-    [Text File] (https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_07/moby_dick.txt)
+    - [Text File](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_07/moby_dick.txt)
   - [Task 8: Plot Task](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_08/plot_task.py)
-    [Plot Image](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_08/plot_task_graph.png)
+    - [Plot Image](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_08/plot_task_graph.png)
+      
 - [🚀 How to Run](#-how-to-run)
 - [⚙️ Requirements](#️-requirements)
 - [📜 License](#-license)
