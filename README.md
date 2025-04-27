@@ -126,8 +126,8 @@ git clone https://github.com/marianemcgrath/pands-weekly-tasks.git
 
 cd pands-weekly-tasks
 
-### 2. Navigate to the task folder (replace X with the week number):
-cd weekX/
+### 2. Navigate to the task folder (replace x with the week number):
+cd weekx/
 
 ### 3. Run the Python script (replace filename.py with the actual script name):
 python filename.py
@@ -171,7 +171,9 @@ AI Sources:
 ## **Contact**📫
 Mariane McGrath
 ✉️ Email: G00473468@atu.ie
+
 🔗 LinkedIn: [/marianemcgrath](https://www.linkedin.com/in/marianemcgrath)
+
 Feel free to reach out with questions or feedback!
 
 # **License** 📜
