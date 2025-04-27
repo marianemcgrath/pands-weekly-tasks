@@ -17,18 +17,21 @@ This repository contains eight weekly tasks, covering:
 - Data visualisation with plots
 
 ## Table of Contents 📑 
-- Weekly Tasks
-  - [Week 1: Hello World](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_01/helloworld.py)
-  - [Week 2: Bank Program](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_02/bank.py)
-  - [Week 3: Accounts](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_03/accounts.py)
-  - [Week 4: Collatz](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_04/collatz.py)
-  - [Week 5: Weekday](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_05/weekday.py)
-  - [Week 6: Square Root](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_06/squareroot.py)
-  - [Week 7: Letter 'E' Counter](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_07/es.py)
-  - [Week 8: Plot Task](https://github.com/marianemcgrath/pands-weekly-tasks/blob/main/week_08/plot_task.py)
-- How to Run
-- Requirements
-- License
+- [🌇 Overview](#-overview)
+- [📚 Weekly Tasks](#-weekly-tasks)
+  - [Task 1: Hello World](#task-1-hello-world)
+  - [Task 2: Bank](#task-2-bank)
+  - [Task 3: Accounts](#task-3-accounts)
+  - [Task 4: Collatz](#task-4-collatz)
+  - [Task 5: Weekday](#task-5-weekday)
+  - [Task 6: Square Root](#task-6-square-root)
+  - [Task 7: Letter 'E' Counter](#task-7-e-count)
+  - [Task 8: Plot Task](#task-8-plot-task)
+- [🚀 How to Run](#-how-to-run)
+- [⚙️ Requirements](#️-requirements)
+- [📜 License](#-license)
+- [📝 References](#-references)
+- [📫 Contact](#-contact)
 
 # **Tasks** 📚 
 
@@ -116,5 +119,33 @@ Suggested files/ figures for the test:
 - Data visualisation with `matplotlib`
 - Random number generation
 
-## 🚀 How to Use
+## **References** 📝
+
+Various resources were consulted to aid learning and ensure best practices. Key references include:
+
+Online:
+- Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
+- W3Schools Python Tutorials: [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
+- Stack Overflow Discussions for troubleshooting specific issues: [https://stackoverflow.com/](https://stackoverflow.com/)
+- Matplotlib Documentation for plotting tasks: [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
+- Real Python Tutorials (for deeper Python insights): [https://realpython.com/](https://realpython.com/)
+- GeeksforGeeks Python Tutorials (especially for file handling and loops): [https://www.geeksforgeeks.org/python-programming-language/](https://www.geeksforgeeks.org/python-programming-language/)
+  
+Book:
+- Matthes, E. (2023) Python Crash Course (3rd edition). San Francisco, US: No Starch Press
+
+AI Sources:
+- Both Chat GPT and DeepSeek were utilised, in parts, for the completion of this project, including the creation of this awesome ReadMe file.
+  The specific prompts were referenced throughout each task.
+  
+## **Contact**📫
+Mariane McGrath
+✉️ Email: G00473468@atu.ie
+🔗 LinkedIn: [/marianemcgrath](https://www.linkedin.com/in/marianemcgrath)
+Feel free to reach out with questions or feedback!
+
+# **License** 📜
+This project is for educational purposes as part of the Programming and Scripting course at ATU.
+Feel free to reference or adapt, but please avoid plagiarism.
+
 
