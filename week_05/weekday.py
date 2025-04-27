@@ -18,6 +18,6 @@ else:                                                           # The 'else' blo
     print ("It is the weekend, yay!")                           # The function displays a happy message because it's the weekend
 
 
-# Resource 1: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
-# Resource 2: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python
-# Resource 3: https://www.w3schools.com/python/python_conditions.asp
+# Source: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
+# Source: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python
+# Source: https://www.w3schools.com/python/python_conditions.asp
