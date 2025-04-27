@@ -17,15 +17,16 @@ try:                                                                    # We'll 
                                                                         
 
 except IndexError:                                                           # This error will happen if the user forgot to type the filename after "python es.py" 
-    print("Error: Missing filename, please use: python es.py moby_dick.txt") # The program issues a message asking user to enter the prompt correctly (program followed by file name)
+    print("Error: Missing filename\nPlease use: python es.py moby_dick.txt") # The program issues a message, on the next line asking user to enter the prompt correctly (program followed by file name)
 
 except FileNotFoundError:                                                    # This error will happen if the filename does not exist
     print(f"Error: File not found")                                          # The program issues a message to let the user know that the file was not found
 
 except:                                                                      # This will catch any other errors, for example, if the file is corrupted
     print("Error: Could not read file")                                      # The program issues a general message
+                                                                             # Resource: Matthes, E. (2023) Python Crash Course (3rd edition). San Francisco, US: No Starch Press -- Chapter 11
 
-# Resource: Matthes, E. (2023) Python Crash Course (3rd edition). San Francisco, US: No Starch Press -- Chapter 11
+# Melville Moby Dick - Text File downloaded from https://www.kaggle.com/datasets/gauravduttakiit/melville-moby-dick?resource=download
+
 # Resource: https://docs.python.org/3/library/os.html#files-and-directories 
-# Resources: https://www.youtube.com/watch?v=bnVf5IyqEhw
-# Sample text downloaded from https://filesamples.com/formats/txt (sample3/ sample1)
+# Resource: https://www.youtube.com/watch?v=bnVf5IyqEhw
