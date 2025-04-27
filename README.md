@@ -119,6 +119,35 @@ Suggested files/ figures for the test:
 - Data visualisation with `matplotlib`
 - Random number generation
 
+## **How to Use**🚀 
+
+### 1. Clone the repository:
+git clone https://github.com/marianemcgrath/pands-weekly-tasks.git
+cd pands-weekly-tasks
+
+### 2. Navigate to the task folder (replace X with the week number):
+cd weekX/
+
+### 3. Run the Python script (replace filename.py with the actual script name):
+python filename.py
+
+#### Special Cases
+**Task 7 (E-Count)** – run the script with a text file argument:
+
+python es.py moby-dick.txt
+
+**Task 8 (Plot Task)** – install dependencies first:
+
+pip install matplotlib numpy
+python plottask.py
+
+## **Requirements** ⚙️ 
+Python 3.x
+
+For plotting (Task 8):
+
+pip install matplotlib numpy
+
 ## **References** 📝
 
 Various resources were consulted to aid learning and ensure best practices. Key references include:
@@ -147,5 +176,4 @@ Feel free to reach out with questions or feedback!
 # **License** 📜
 This project is for educational purposes as part of the Programming and Scripting course at ATU.
 Feel free to reference or adapt, but please avoid plagiarism.
-
 
