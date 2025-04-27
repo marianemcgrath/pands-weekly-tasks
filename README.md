@@ -90,7 +90,7 @@ This program, called weekday.py, determines whether today is a weekday.
 ## Task 6: Square Root
  - This program takes a positive floating-point number as input and outputs an approximation of its square root.
  - This program does not use the built-in functions in Python [x ** .5 **or** math.sqrt(x)]
- - To develop the code, the author researched the Newton method for estimating square roots.
+ - To develop the code, the author researched the Newton-Raphson Method and the Babylonian Method for estimating square roots.
 
 Suggested figures for the test:
 - Please enter a positive number: 14.5
